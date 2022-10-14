@@ -12,10 +12,16 @@ flatten([1, 2]); // [1, 2]
 flatten([1, [2, [3]]]); // [1, 2, 3]
 ***********************************************************************/
 
-function flatten(arr) {
-  // Your code here
-}
-  
+let arr = [1, 2 ,3];
+console.log(arr[1][0]);
+
+let arr2 = [1, [2, [3]]];
+console.log(...arr2);
+
+// function flatten(arr) {
+//   // Your code here
+//   if (arr[0])
+// }
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = flatten;
-  
